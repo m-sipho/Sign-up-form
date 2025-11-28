@@ -54,6 +54,19 @@ body {
     width: 100%;
     height: 50px;
     margin: 20px 0;
+    position: relative;
+}
+
+.wrapper .form-row label {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 15px;
+    font-size: 16px;
+    pointer-events: none;
+    color: rgb(218, 223, 223);
+    padding: 0 5px;
+    transition: .5s;
 }
 
 .form-row input {
@@ -68,6 +81,13 @@ body {
     font-size: 14px;
     color: var(--typography-color);
     padding: 20px 45px 20px 20px;
+}
+
+.wrapper .form-row input:focus~label,
+.wrapper .form-row input:valid~label {
+    top: 0;
+    background: rgb(24, 24, 24);
+    font-size: 14px;
 }
 
 .overall-wrapper button {
