@@ -83,8 +83,8 @@ body {
     padding: 20px 45px 20px 20px;
 }
 
-.wrapper .form-row input:focus~label,
-.wrapper .form-row input:valid~label {
+.wrapper .form-row input:focus ~ label,
+.wrapper .form-row input:not(:placeholder-shown) ~ label {
     top: 0;
     background: rgb(24, 24, 24);
     font-size: 14px;
