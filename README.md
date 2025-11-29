@@ -4,7 +4,7 @@
 This project showcases a modern sign-up form built using HTML and CSS. Users can enter their details with field styled consistency and ease to use.
 
 ## Screenshot
-<img src="./app-preview.png" alt="Project Screenshot">
+<img src="./img/app-preview.png" alt="Project Screenshot">
 
 ## Technologies Used
 - HTML: Provides structure
