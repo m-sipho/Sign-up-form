@@ -21,6 +21,19 @@ body {
     background-position: center;
 }
 
+.exam-photo {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exam-photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .overall-wrapper h1 {
     font-size: 36px;
     text-align: center;
@@ -28,15 +41,24 @@ body {
 }
 
 .overall-wrapper {
-    width: 700px;
-    height: 450px;
+    display: flex;
+    width: 1000px;
+    height: 500px;
     background: transparent;
     border: 2px solid var(--border-color);
     backdrop-filter: blur(10px);
     box-shadow: 0 0 px rgba(0, 0, 0, .2);
     color: var(--typography-color);
     border-radius: 10px;
+    /* padding: 30px 40px; */
+}
+
+.overall-wrapper form {
+    width: 55%;
     padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .overall-wrapper .wrapper {
