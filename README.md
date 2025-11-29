@@ -14,3 +14,4 @@ This project showcases a modern sign-up form built using HTML and CSS. Users can
 
 ## Acknowledgements
 - Background photo by <a href="https://unsplash.com/@adrienolichon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adrien Olichon</a> on <a href="https://unsplash.com/photos/grey-sand-wave-RCAhiGJsUUE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- Side image by <a href="https://www.vecteezy.com/members/nerizaamanda">Adeline Amanda</a>, <a href="https://www.vecteezy.com/vector-art/5309774-3d-isometric-landing-page-template-of-online-examination-on-computer-online-test-opinion-checklist-online-education-questionnaire-form-survey-metaphor-answering-internet-quiz-computer-testing">Vectors by Vecteezy</a>
